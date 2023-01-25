@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interview</title>
+    <!-- tailwind css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- header section start  -->
+    <header class="">
+      <section
+        class="banner__section bg-[url('/images/banner2.webp')] h-screen bg-cover max-w-7xl mx-auto"
+      >
+        <div
+          class="banner__info flex flex-col justify-center items-center h-screen"
+        >
+          <h1 class="text-6xl font-bold text-white text-center mb-5">
+            Make Your Own <br />
+            Preparation
+          </h1>
+          <p class="text-white text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            exercitationem nemo eligendi incidunt fugit cumque nostrum eius
+            sequi porro dignissimos?
+          </p>
+        </div>
+      </section>
+    </header>
+    <!-- header section  -->
+
+    <!-- main section start -->
+    <main class="max-w-7xl mx-auto">
+      <!-- html section start  -->
+      <section>
+        <h1 class="text-center my-28 text-5xl font-bold">HTMl</h1>
+
+        <div class="grid grid-cols-2">
+          <div class="">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div
+                class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200"
+              >
+                <h2 class="accordion-header mb-0" id="flush-headingOne">
+                  <button
+                    class="accordion-button relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left border-0 rounded-none transition focus:outline-none mb-5 bg-[#F3F3F3]"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    1. What is HTML and how is it used?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse border-0 collapse show"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body py-4 px-5">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the first item's accordion body.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200"
+              >
+                <h2 class="accordion-header mb-0" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left border-0 rounded-none transition focus:outline-none mb-5 bg-[#F3F3F3]"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    2. Can you explain the difference between the head and body
+                    of an HTML document?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse border-0 collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body py-4 px-5">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the second item's accordion body. Let's imagine this being
+                    filled with some actual content.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item border-l-0 border-r-0 border-b-0 rounded-none bg-white border border-gray-200"
+              >
+                <h2 class="accordion-header mb-0" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left border-0 rounded-none transition focus:outline-none mb-5 bg-[#F3F3F3]"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    3. How do you create hyperlinks in HTML?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body py-4 px-5">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the
+                    space to make it look, at least at first glance, a bit more
+                    representative of how this would look in a real-world
+                    application.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item border-l-0 border-r-0 border-b-0 rounded-none bg-white border border-gray-200"
+              >
+                <h2 class="accordion-header mb-0" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left border-0 rounded-none transition focus:outline-none mb-5 bg-[#F3F3F3]"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    4.What is the purpose of the alt attribute in an img tag?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body py-4 px-5">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the
+                    space to make it look, at least at first glance, a bit more
+                    representative of how this would look in a real-world
+                    application.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item border-l-0 border-r-0 border-b-0 rounded-none bg-white border border-gray-200"
+              >
+                <h2 class="accordion-header mb-0" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left border-0 rounded-none transition focus:outline-none mb-5 bg-[#F3F3F3]"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    5. How do you use HTML5 semantic elements?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body py-4 px-5">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the
+                    space to make it look, at least at first glance, a bit more
+                    representative of how this would look in a real-world
+                    application.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item border-l-0 border-r-0 border-b-0 rounded-none bg-white border border-gray-200"
+              >
+                <h2 class="accordion-header mb-0" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left border-0 rounded-none transition focus:outline-none mb-5 bg-[#F3F3F3]"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    6.Can you explain the difference between a div and a span
+                    element?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body py-4 px-5">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the
+                    space to make it look, at least at first glance, a bit more
+                    representative of how this would look in a real-world
+                    application.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item border-l-0 border-r-0 border-b-0 rounded-none bg-white border border-gray-200"
+              >
+                <h2 class="accordion-header mb-0" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left border-0 rounded-none transition focus:outline-none mb-5 bg-[#F3F3F3]"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    7. How do you use HTML to create tables?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body py-4 px-5">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the
+                    space to make it look, at least at first glance, a bit more
+                    representative of how this would look in a real-world
+                    application.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item border-l-0 border-r-0 border-b-0 rounded-none bg-white border border-gray-200"
+              >
+                <h2 class="accordion-header mb-0" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left border-0 rounded-none transition focus:outline-none mb-5 bg-[#F3F3F3]"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    8. Can you explain the difference between block-level and
+                    inline elements?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body py-4 px-5">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the
+                    space to make it look, at least at first glance, a bit more
+                    representative of how this would look in a real-world
+                    application.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item border-l-0 border-r-0 border-b-0 rounded-none bg-white border border-gray-200"
+              >
+                <h2 class="accordion-header mb-0" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left border-0 rounded-none transition focus:outline-none mb-5 bg-[#F3F3F3]"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    9. How do you use HTML to create tables?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body py-4 px-5">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the
+                    space to make it look, at least at first glance, a bit more
+                    representative of how this would look in a real-world
+                    application.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item border-l-0 border-r-0 border-b-0 rounded-none bg-white border border-gray-200"
+              >
+                <h2 class="accordion-header mb-0" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left border-0 rounded-none transition focus:outline-none mb-5 bg-[#F3F3F3]"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    10. How do you use CSS in conjunction with HTML?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body py-4 px-5">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the
+                    space to make it look, at least at first glance, a bit more
+                    representative of how this would look in a real-world
+                    application.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <img src="/images/html.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- html section end -->
+    </main>
+    <!-- main section end -->
+
+    <!-- footer section start   -->
+    <footer></footer>
+    <!-- footer section end   -->
+
+    <!-- tailwind js  -->
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+  </body>
+</html>
